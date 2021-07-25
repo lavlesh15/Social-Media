@@ -1,0 +1,57 @@
+*
+{
+  margin: 0;
+}
+
+.App
+{
+  background-color: #fafafa;
+  display: grid;
+  place-items: center;
+}
+
+.app_signup
+{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.signup_img
+{
+  height: 100px;
+  width: 130px;
+}
+
+.buttons
+{
+  width: 40vw;
+  margin-left: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 15px;
+  margin-bottom: 20px;
+
+}
+
+.fa-heart
+{
+  color: rgb(153, 4, 4);
+  text-shadow: none;
+  margin-left: 2px;
+}
+
+.fa-sign-out-alt
+{
+  color: rgb(65, 63, 63);
+  margin-left: 5px;
+}
+
+small
+{
+  margin-top: 5px;
+}
+
+

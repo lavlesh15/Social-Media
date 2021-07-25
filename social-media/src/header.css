@@ -1,0 +1,56 @@
+
+.header
+{
+    width: 100vw;
+    height: 15vh;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    overflow:hidden;
+}
+
+.head
+{
+    display: flex;
+}
+
+.head h3
+{
+    margin-top: 40px;
+    margin-left:-40px;
+    font-size: 25px;
+    color: rgb(11, 161, 161);
+    text-shadow: 1px 1px 1px gray;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media(max-width:400px)
+{
+
+    .header
+    {
+        height:13vh;
+    }
+    .head h3
+    {
+        font-size:22px;
+        margin-top:60px;
+        margin-left:3px;
+
+    }
+}
+
+img
+{
+    height: 20vh;
+    /* box-shadow:1px 1px 1px whitesmoke; */
+    width: 19vw;
+    object-fit: contain;
+}
+
+.icon 
+{
+    margin-right: 10px;
+}

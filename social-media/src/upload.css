@@ -1,0 +1,62 @@
+
+
+
+.upload_div
+{
+    display: flex;
+    flex-direction: column;
+    width:80vw;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.progress
+{
+    width: 100%;
+    margin: auto;
+    color: dodgerblue;
+    height: 20px;
+
+}
+
+.upload_caption
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom:1px solid rgb(92, 90, 90);
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 8px 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.upload_caption:focus
+{
+    outline-width: 0px;
+}
+
+.fa-upload
+{
+    color: rgb(85, 85, 85);
+    margin-left: 5px;
+}
+
+.upload_file
+{
+   
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px 15px;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
